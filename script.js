@@ -60,3 +60,10 @@ $(document).ready(function() {
         let asalKopi = $(this).data("asal");
         let prosesKopi = $(this).data("proses");
         let gambarKopi = $(this).data("gambar");
+
+        $("#modalKopiNama").text(namaKopi);
+        $("#modalKopiHarga").text(hargaKopi);
+        $("#modalKopiRasa").text(rasaKopi);
+        $("#modalKopiAsal").text(asalKopi);
+        $("#modalKopiProses").text(prosesKopi);
+        $("#modalKopiGambar").attr("src", gambarKopi);
