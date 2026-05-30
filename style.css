@@ -74,3 +74,14 @@ html {
     transform: translateY(-8px);
     box-shadow: 0 15px 30px rgba(27, 67, 50, 0.15) !important;
 }
+.btn-kopi-detail {
+    cursor: pointer;
+}
+
+.btn-kopi-detail span {
+    transition: color 0.2s ease-in-out;
+}
+.btn-kopi-detail:hover span {
+    color: #1b4332 !important;  
+    text-decoration: underline;
+}
