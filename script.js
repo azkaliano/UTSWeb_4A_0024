@@ -67,3 +67,9 @@ $(document).ready(function() {
         $("#modalKopiAsal").text(asalKopi);
         $("#modalKopiProses").text(prosesKopi);
         $("#modalKopiGambar").attr("src", gambarKopi);
+
+        let modalElement = new bootstrap.Modal(document.getElementById('kopiDetailModal'));
+        modalElement.show();
+    });
+   
+    });
