@@ -170,3 +170,29 @@
             </div>
         </div>
     </div>
+    <section id="brewing" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="text-forest text-uppercase fw-bold">Interactive Guide</span>
+                <h2 class="fw-bold text-forest">Rekomendasi Metode Penyeduhan</h2>
+                <p class="text-muted">Klik salah satu alat di bawah untuk melihat kecocokan profil gilingan biji kopi.</p>
+            </div>
+            <div class="row justify-content-center text-center mb-4">
+                <div class="col-auto">
+                    <button class="btn btn-outline-forest active btn-brew-toggle mx-2 mb-2" data-method="espresso">
+                        <i class="fas fa-bolt me-2"></i>Espresso Machine
+                    </button>
+                    <button class="btn btn-outline-forest btn-brew-toggle mx-2 mb-2" data-method="pourover">
+                        <i class="fas fa-filter me-2"></i>Pour Over (V60)
+                    </button>
+                    <button class="btn btn-outline-forest btn-brew-toggle mx-2 mb-2" data-method="frenchpress">
+                        <i class="fas fa-glass-water me-2"></i>French Press
+                    </button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 bg-light-soft p-4 rounded border text-center" id="brewCardBox">
+                    <h4 id="brewTitle" class="fw-bold text-forest mb-2">Espresso Machine</h4>
+                    <p id="brewDesc" class="text-muted">Metode ekstraksi cepat bertekanan tinggi. Memerlukan tingkat gilingan yang sangat halus agar bodi kopi keluar dengan pekat dan menghasilkan krema optimal.</p>
+                    <div class="badge bg-gold text-dark p-2 fs-6 mt-2">Rekomendasi Ukuran: <span id="brewGrind" class="fw-bold">Fine (Sangat Halus)</span></div>
+                </div>
