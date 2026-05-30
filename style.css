@@ -20,3 +20,8 @@ html {
     border-radius: 0;
     transition: all 0.3s ease;
 }
+.btn-outline-forest:hover, .btn-outline-forest.active {
+    background-color: #1b4332 !important;
+    color: #d4af37 !important;
+    border-color: #1b4332;
+}
