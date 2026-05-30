@@ -256,3 +256,31 @@
             </div>
         </div>
     </section>
+    <section id="calculator" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-forest">Kalkulator Pembelian Grosir</h2>
+                <p class="text-muted">Simulasikan pagu anggaran pengadaan biji kopi entitas bisnis Anda secara langsung.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 bg-light-soft p-4 p-md-5 rounded border shadow-sm">
+                    <div class="mb-4">
+                        <label for="coffeeType" class="form-label fw-bold text-forest">Varietas Biji Kopi:</label>
+                        <select id="coffeeType" class="form-select form-select-lg rounded-0">
+                            <option value="120000">Arabika Gayo Premium - Rp 120.000 / Kg</option>
+                            <option value="90000">Robusta Dampit - Rp 90.000 / Kg</option>
+                            <option value="140000">Arabika Kintamani - Rp 140.000 / Kg</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="quantity" class="form-label fw-bold text-forest">Volume Kebutuhan (Kg):</label>
+                        <input type="number" id="quantity" class="form-control form-select-lg rounded-0" value="1" min="1">
+                    </div>
+                    <div class="p-4 bg-white text-center border-start border-gold border-4 shadow-sm">
+                        <h6 class="text-muted mb-2 text-uppercase tracking-wider">Kalkulasi Anggaran:</h6>
+                        <h2 id="totalDisplay" class="text-forest fw-bold m-0">Rp 0</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
