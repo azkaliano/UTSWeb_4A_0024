@@ -9,3 +9,11 @@ $(document).ready(function() {
         }
 
         let total = hargaPerKilo * jumlahKilo;
+
+        $("#totalDisplay").text("Rp " + total.toLocaleString('id-ID'));
+    }
+
+   
+    $("#coffeeType, #quantity").on("input change", function() {
+        hitungTotal();
+    });
