@@ -35,3 +35,19 @@ $(document).ready(function() {
             desc: "Sistem perendaman penuh (*immersion*) tanpa kertas saring. Potongan buncis harus berukuran kasar agar tidak lolos dari jaring saringan metal, membuahkan tekstur rasa pekat yang tebal."
         }
     };
+    $(".btn-brew-toggle").on("click", function() {
+        // Mengubah status kelas tombol aktif Bootstrap
+        $(".btn-brew-toggle").removeClass("active");
+        $(this).addClass("active");
+
+      
+        let metodePilihan = $(this).data("method");
+
+       
+        $("#brewTitle").text(dataSeduh[metodePilihan].title);
+        $("#brewDesc").text(dataSeduh[metodePilihan].desc);
+        $("#brewGrind").text(dataSeduh[metodePilihan].grind);
+        
+        
+        $("#brewCardBox").hide().fadeIn(400);
+    });
