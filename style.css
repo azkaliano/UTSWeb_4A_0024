@@ -65,3 +65,12 @@ html {
 .justify-text {
     text-align: justify;
 }
+.card-luxury {
+    border-radius: 0;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card-luxury:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(27, 67, 50, 0.15) !important;
+}
