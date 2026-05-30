@@ -51,3 +51,12 @@ $(document).ready(function() {
         
         $("#brewCardBox").hide().fadeIn(400);
     });
+
+    $(".btn-kopi-detail").on("click", function() {
+
+        let namaKopi = $(this).data("nama");
+        let hargaKopi = $(this).data("harga");
+        let rasaKopi = $(this).data("rasa");
+        let asalKopi = $(this).data("asal");
+        let prosesKopi = $(this).data("proses");
+        let gambarKopi = $(this).data("gambar");
