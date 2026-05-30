@@ -54,3 +54,14 @@ html {
     display: flex;
     align-items: center;
 }
+.section-padding {
+    padding: 100px 0;
+}
+
+.bg-light-soft {
+    background-color: #f4f6f4;
+}
+
+.justify-text {
+    text-align: justify;
+}
