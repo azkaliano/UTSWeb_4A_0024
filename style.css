@@ -13,3 +13,10 @@ html {
 .text-gold {
     color: #d4af37 !important; 
 }
+.btn-gold {
+    background-color: #d4af37;
+    color: #1b4332;
+    border: 1px solid #d4af37;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
