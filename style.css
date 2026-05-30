@@ -42,4 +42,15 @@ html {
     border-color: #1b4332;
     border-radius: 0;
 }
-
+.btn-outline-forest:hover, .btn-outline-forest.active {
+    background-color: #1b4332 !important;
+    color: #d4af37 !important;
+    border-color: #1b4332;
+}
+.hero-section {
+    background: linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)), 
+                url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=1920') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
